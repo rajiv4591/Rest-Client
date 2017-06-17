@@ -1,0 +1,47 @@
+ input[type=text], 
+ input[type=date],
+ input[type=datetime],
+ input[type=number],
+ input[type=search],
+ input[type=time],
+ input[type=url],
+ input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+ input[type=text]:focus, 
+ input[type=date]:focus,
+ input[type=datetime]:focus,
+ input[type=number]:focus,
+ input[type=search]:focus,
+ input[type=time]:focus,
+ input[type=url]:focus,
+ input[type=email]:focus,
+ textarea:focus, 
+ select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+
+.w3-panel:after,.w3-panel:before {
+    content:"";
+    display:table;
+    clear:both
+}
+
+.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+
+.w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}

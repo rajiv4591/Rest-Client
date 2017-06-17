@@ -1,0 +1,24 @@
+.content {
+    padding: 2%;
+
+    .user-name {
+        font-size: 20px;
+    }
+
+    .checkbox-label {
+        margin-left: -15px;
+    }
+
+    .checkbox-container {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .card-divider {
+        width: 100%;
+        background: $blue-bg;
+        height: 40px;
+        padding: 10px;
+        color: #fff;
+    }
+}
